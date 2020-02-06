@@ -463,6 +463,27 @@ p {
 
 }
 
+.video_pilot a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+
+    background-color: dimgray;
+    padding: 1rem;
+}
+
+
+.video_pilot {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.video_pilot a:hover {
+    background-color: dodgerblue;
+}
+
 
 
 
@@ -503,6 +524,29 @@ p {
 
 #redesign p {
     color: white;
+}
+
+
+.redesign_link a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: dimgrey;
+
+    background-color: white;
+    padding: 1rem;
+}
+
+
+.redesign_link {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.redesign_link a:hover {
+    color: dodgerblue;
 }
 
 
