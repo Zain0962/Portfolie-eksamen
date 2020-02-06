@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1164 723" style="enable-background:new 0 0 1164 723;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#191919;stroke-width:21;stroke-miterlimit:10;}
+	.st1{fill:#191919;}
+	.st2{fill:#262626;}
+	.st3{fill:url(#SVGID_1_);}
+	.st4{fill:url(#SVGID_2_);}
+</style>
+<title>gorlubblap</title>
+<image style="overflow:visible;enable-background:new    ;" width="1438" height="780" xlink:href="../værker/gorlubblap.png"  transform="matrix(0.61 0 0 0.69 146.5 92)">
+</image>
+<path class="st0" d="M166.6,58.4h830.4c16.3,0,29.5,13.2,29.5,29.5v547.4c0,16.3-13.2,29.5-29.5,29.5H166.6
+	c-16.3,0-29.5-13.2-29.5-29.5V87.9C137.1,71.6,150.3,58.4,166.6,58.4z"/>
+<rect x="144.6" y="59.9" class="st1" width="880" height="36"/>
+<rect x="127.1" y="630.4" class="st1" width="910" height="35"/>
+<rect x="127.1" y="647.4" class="st2" width="910" height="21"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="22.11" y1="34.6304" x2="1145.11" y2="34.6304" gradientTransform="matrix(1 0 0 -1 0 724)">
+	<stop  offset="3.000000e-02" style="stop-color:#1F1F1F"/>
+	<stop  offset="0.51" style="stop-color:#636363"/>
+	<stop  offset="1" style="stop-color:#0F0F0F"/>
+</linearGradient>
+<path class="st3" d="M22.1,685.4c30,9.9,61.5,14.3,93,13h941c16.4-0.2,32.8-1.5,49-4c14.4-2.2,40-7.2,40-9
+	C1145,676.7,571,680.2,22.1,685.4z"/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="19.11" y1="48.6" x2="1145.11" y2="48.6" gradientTransform="matrix(1 0 0 -1 0 724)">
+	<stop  offset="3.000000e-02" style="stop-color:#2E2E2E"/>
+	<stop  offset="0.51" style="stop-color:#949494"/>
+	<stop  offset="1" style="stop-color:#262626"/>
+</linearGradient>
+<rect x="19.1" y="665.4" class="st4" width="1126" height="20"/>
+<circle class="st2" cx="586.1" cy="73.4" r="5"/>
+</svg>
