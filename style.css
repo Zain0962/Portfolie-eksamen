@@ -430,6 +430,85 @@ p {
 
 /*******************Ani slut********************/
 
+#content {
+    margin: 0;
+}
+
+#pilotvideo .sectionwrapper_video {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#pilotvideo .sectionwrapper_video .col {
+    flex-grow: 1;
+    flex-basis: 500px;
+
+    margin: 0.5rem;
+    padding: 1rem;
+
+}
+
+#pilotvideo .sectionwrapper_video .col img {
+    width: 100%;
+}
+
+
+#pilotvideo h2 {
+    font-size: 1.5rem;
+}
+
+#pilotvideo h3 {
+    font-size: 1.3rem;
+
+}
+
+
+
+
+#redesign {
+    background-color: lightgrey;
+}
+
+
+#redesign .sectionwrapper_redesign {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#redesign .sectionwrapper_redesign .col {
+    flex-grow: 1;
+    flex-basis: 500px;
+
+    margin: 0.5rem;
+    padding: 1rem;
+
+}
+
+#redesign .sectionwrapper_redesign .col img {
+    width: 100%;
+}
+
+#redesign h2 {
+    color: white;
+    font-size: 1.5rem;
+}
+
+#redesign h3 {
+    color: white;
+    font-size: 1.3rem;
+
+}
+
+#redesign p {
+    color: white;
+}
+
+
+
+
+
 
 
 
