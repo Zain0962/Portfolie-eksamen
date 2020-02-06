@@ -323,7 +323,105 @@ p {
 
 /*******************Ani*************************/
 
+#animation {
+    margin: 0;
+}
 
+#animation .sectionwrapper_mitspil {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#animation .sectionwrapper_mitspil .col {
+    flex-grow: 1;
+    flex-basis: 500px;
+
+    margin: 0.5rem;
+    padding: 1rem;
+
+}
+
+#animation .sectionwrapper_mitspil .col img {
+    width: 100%;
+}
+
+
+
+
+
+#sexsamfund {
+    background-color: lightgrey;
+}
+
+
+#sexsamfund .sectionwrapper_ss {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#sexsamfund .sectionwrapper_ss .col {
+    flex-grow: 1;
+    flex-basis: 500px;
+
+    margin: 0.5rem;
+    padding: 1rem;
+
+}
+
+#sexsamfund .sectionwrapper_ss .col img {
+    width: 100%;
+}
+
+#sexsamfund h3,
+#sexsamfund h2,
+#sexsamfund p {
+    color: white;
+}
+
+
+#mitspil .spil_links a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+
+    background-color: dimgray;
+    padding: 1rem;
+}
+
+
+#mitspil .spil_links {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#mitspil .spil_links a:hover {
+    background-color: dodgerblue;
+}
+
+#sexsamfund .spil_links a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: dimgrey;
+
+    background-color: white;
+    padding: 1rem;
+}
+
+
+#sexsamfund .spil_links {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#sexsamfund .spil_links a:hover {
+    color: dodgerblue;
+}
 
 
 
