@@ -14,6 +14,7 @@ header nav {
 
 header nav a {
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     color: dodgerblue;
     font-size: 1.5rem;
     text-decoration: none;
@@ -31,6 +32,7 @@ header nav a:hover {
 
 #logo a {
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     color: dodgerblue;
     font-size: 2.5rem;
     text-decoration: none;
@@ -56,6 +58,7 @@ header nav a:hover {
 .web {
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 2rem;
     padding: 2rem;
 }
@@ -76,6 +79,7 @@ header nav a:hover {
 .ux {
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 2rem;
     padding: 2rem;
 
@@ -95,6 +99,7 @@ header nav a:hover {
 .animation {
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 2rem;
     padding: 2rem;
 
@@ -114,6 +119,7 @@ header nav a:hover {
 .content {
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     font-size: 2rem;
     padding: 2rem;
 }
@@ -160,56 +166,83 @@ header nav a:hover {
 
 /*******************web*************************/
 
-#web .sectionwrapper {
-    display: flex;
-    flex-wrap: wrap;
+#web {
+    margin: 0;
 }
 
-#web .sectionwrapper .col {
+#web .sectionwrapper_web {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#web .sectionwrapper_web .col {
     flex-grow: 1;
     flex-basis: 500px;
 
+    margin: 0.5rem;
+    padding: 0.5rem;
 
 }
 
-#web img {
-    flex-wrap: nowrap;
-    height: 25vw;
-    width: 40vw;
-    margin-top: 16rem;
-
+#web .sectionwrapper_web .col img {
+    width: 100%;
 }
 
-#web .col p {
-    font-family: sans-serif;
-    font-size: 1.1rem;
-    border-radius: 5%;
-
-}
-
-#web.col h2 {
-    font-family: 'Raleway', sans-serif;
+h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    margin-top: 3rem;
     text-align: center;
-    margin: 2rem;
-    color: grey;
 
-
+    color: dimgrey;
 }
 
-#web .col h3 {
-    font-family: 'Raleway', sans-serif;
+h2 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.8rem;
     text-align: center;
+
+    color: dimgrey;
+}
+
+h3 {
     margin: 1rem;
-    color: darkgrey;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
 
+    color: dimgrey;
+}
+
+p {
+    margin-top: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8rem;
 
 }
 
+.swiss_website a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+
+    background-color: dimgray;
+    padding: 1rem;
+}
 
 
+.swiss_website {
+    text-align: center;
+    margin-top: 2rem;
+}
 
-
-
+.swiss_website a:hover {
+    background-color: dodgerblue;
+}
 
 
 
@@ -220,6 +253,62 @@ header nav a:hover {
 
 /*******************UX*************************/
 
+#ux {
+    margin: 0;
+}
+
+#prototype .sectionwrapper_proto {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#prototype .sectionwrapper_proto .col {
+    flex-grow: 1;
+    flex-basis: 500px;
+
+    margin: 0.5rem;
+    padding: 1rem;
+
+}
+
+#prototype .sectionwrapper_proto .col img {
+    width: 100%;
+}
+
+
+
+
+
+#design_sprint {
+    background-color: lightgrey;
+}
+
+
+#design_sprint .sectionwrapper_sprint {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#design_sprint .sectionwrapper_sprint .col {
+    flex-grow: 1;
+    flex-basis: 500px;
+
+    margin: 0.5rem;
+    padding: 1rem;
+
+}
+
+#design_sprint .sectionwrapper_sprint .col img {
+    width: 100%;
+}
+
+#design_sprint h3,
+#design_sprint h2,
+#design_sprint p {
+    color: white;
+}
 
 
 
