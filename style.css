@@ -170,16 +170,8 @@ header nav a:hover {
     margin: 0;
 }
 
-#web .sectionwrapper_web {
-    display: flex;
-    flex-wrap: wrap;
-
-}
 
 #web .sectionwrapper_web .col {
-    flex-grow: 1;
-    flex-basis: 500px;
-
     margin: 0.5rem;
     padding: 0.5rem;
 
@@ -244,6 +236,26 @@ p {
     background-color: dodgerblue;
 }
 
+@media screen and (min-width:800px) {
+    #web .sectionwrapper_web {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+}
+
+@media screen and (min-width:600px) {
+    #web .sectionwrapper_web .col {
+        flex-grow: 1;
+        flex-basis: 500px;
+
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+
+}
+
+
 
 
 /*******************web slut********************/
@@ -257,16 +269,8 @@ p {
     margin: 0;
 }
 
-#prototype .sectionwrapper_proto {
-    display: flex;
-    flex-wrap: wrap;
-
-}
 
 #prototype .sectionwrapper_proto .col {
-    flex-grow: 1;
-    flex-basis: 500px;
-
     margin: 0.5rem;
     padding: 1rem;
 
@@ -285,16 +289,8 @@ p {
 }
 
 
-#design_sprint .sectionwrapper_sprint {
-    display: flex;
-    flex-wrap: wrap;
-
-}
 
 #design_sprint .sectionwrapper_sprint .col {
-    flex-grow: 1;
-    flex-basis: 500px;
-
     margin: 0.5rem;
     padding: 1rem;
 
@@ -310,6 +306,43 @@ p {
     color: white;
 }
 
+@media screen and (min-width:800px) {
+    #prototype .sectionwrapper_proto {
+        display: flex;
+        flex-wrap: nowrap;
+
+    }
+}
+
+@media screen and (min-width:800px) {
+    #prototype .sectionwrapper_proto .col {
+        flex-grow: 1;
+        flex-basis: 500px;
+
+        margin: 0.5rem;
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width:800px) {
+    #design_sprint .sectionwrapper_sprint {
+        display: flex;
+        flex-wrap: nowrap;
+
+    }
+}
+
+
+@media screen and (min-width:800px) {
+    #design_sprint .sectionwrapper_sprint .col {
+        flex-grow: 1;
+        flex-basis: 500px;
+
+        margin: 0.5rem;
+        padding: 1rem;
+
+    }
+}
 
 
 
@@ -327,16 +360,8 @@ p {
     margin: 0;
 }
 
-#animation .sectionwrapper_mitspil {
-    display: flex;
-    flex-wrap: wrap;
-
-}
 
 #animation .sectionwrapper_mitspil .col {
-    flex-grow: 1;
-    flex-basis: 500px;
-
     margin: 0.5rem;
     padding: 1rem;
 
@@ -355,16 +380,8 @@ p {
 }
 
 
-#sexsamfund .sectionwrapper_ss {
-    display: flex;
-    flex-wrap: wrap;
-
-}
 
 #sexsamfund .sectionwrapper_ss .col {
-    flex-grow: 1;
-    flex-basis: 500px;
-
     margin: 0.5rem;
     padding: 1rem;
 
@@ -425,6 +442,47 @@ p {
 
 
 
+@media screen and (min-width:800px) {
+    #animation .sectionwrapper_mitspil {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+
+@media screen and (min-width:800px) {
+    #animation .sectionwrapper_mitspil .col {
+        flex-grow: 1;
+        flex-basis: 500px;
+
+        margin: 0.5rem;
+        padding: 1rem;
+
+    }
+}
+
+
+@media screen and (min-width:800px) {
+    #sexsamfund .sectionwrapper_ss {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+
+@media screen and (min-width:800px) {
+    #sexsamfund .sectionwrapper_ss .col {
+        flex-grow: 1;
+        flex-basis: 500px;
+
+        margin: 0.5rem;
+        padding: 1rem;
+
+    }
+}
+
+
+
 
 
 
@@ -434,16 +492,9 @@ p {
     margin: 0;
 }
 
-#pilotvideo .sectionwrapper_video {
-    display: flex;
-    flex-wrap: wrap;
 
-}
 
 #pilotvideo .sectionwrapper_video .col {
-    flex-grow: 1;
-    flex-basis: 500px;
-
     margin: 0.5rem;
     padding: 1rem;
 
@@ -492,16 +543,8 @@ p {
 }
 
 
-#redesign .sectionwrapper_redesign {
-    display: flex;
-    flex-wrap: wrap;
-
-}
 
 #redesign .sectionwrapper_redesign .col {
-    flex-grow: 1;
-    flex-basis: 500px;
-
     margin: 0.5rem;
     padding: 1rem;
 
@@ -553,9 +596,45 @@ p {
 
 
 
+@media screen and (min-width:800px) {
+    #pilotvideo .sectionwrapper_video {
+        display: flex;
+        flex-wrap: nowrap;
+
+    }
+}
 
 
+@media screen and (min-width:800px) {
+    #pilotvideo .sectionwrapper_video .col {
+        flex-grow: 1;
+        flex-basis: 500px;
 
+        margin: 0.5rem;
+        padding: 1rem;
+    }
+}
+
+
+@media screen and (min-width:800px) {
+    #redesign .sectionwrapper_redesign {
+        display: flex;
+        flex-wrap: nowrap;
+
+    }
+}
+
+
+@media screen and (min-width:800px) {
+    #redesign .sectionwrapper_redesign .col {
+        flex-grow: 1;
+        flex-basis: 500px;
+
+        margin: 0.5rem;
+        padding: 1rem;
+
+    }
+}
 
 
 
