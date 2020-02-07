@@ -244,7 +244,7 @@ p {
 
 }
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:800px) {
     #web .sectionwrapper_web .col {
         flex-grow: 1;
         flex-basis: 500px;
@@ -488,6 +488,17 @@ p {
 
 /*******************Ani slut********************/
 
+
+
+
+
+
+
+
+
+/********************Content*******************/
+
+
 #content {
     margin: 0;
 }
@@ -639,18 +650,11 @@ p {
 
 
 
-
-
-/*******************content*************************/
-
-
-
-
-
-
-
-
 /*******************content slut********************/
+
+
+
+
 
 
 
