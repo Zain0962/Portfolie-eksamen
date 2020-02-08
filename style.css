@@ -1,3 +1,7 @@
+/**************MENU********************/
+
+
+
 header {
     position: fixed;
     top: 1vw;
@@ -45,6 +49,19 @@ header nav a:hover {
 #logo a:hover {
     color: #f4b6c2;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -197,6 +214,18 @@ header nav a:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 /*******************web*************************/
 
 #web {
@@ -220,7 +249,8 @@ h1 {
     margin-top: 3rem;
     text-align: center;
 
-    color: dimgrey;
+    color: black;
+
 }
 
 h2 {
@@ -229,7 +259,7 @@ h2 {
     font-size: 1.8rem;
     text-align: center;
 
-    color: dimgrey;
+    color: #f4b6c2;
 }
 
 h3 {
@@ -238,12 +268,13 @@ h3 {
     font-size: 1.4rem;
     text-align: center;
 
-    color: dimgrey;
+    color: #f4b6c2;
 }
 
 p {
     margin-top: 2rem;
     font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     font-size: 1rem;
     line-height: 1.8rem;
 
@@ -255,8 +286,9 @@ p {
     text-decoration: none;
     color: white;
 
-    background-color: dimgray;
+    background-color: #f4b6c2;
     padding: 1rem;
+    border-radius: 1.2rem;
 }
 
 
@@ -265,9 +297,12 @@ p {
     margin-top: 2rem;
 }
 
-.swiss_website a:hover {
-    background-color: dodgerblue;
+.swiss_website:hover {
+    transform: scale(1.2);
 }
+
+
+
 
 @media screen and (min-width:800px) {
     #web .sectionwrapper_web {
@@ -296,6 +331,17 @@ p {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /*******************UX*************************/
 
 #ux {
@@ -316,9 +362,8 @@ p {
 
 
 
-
 #design_sprint {
-    background-color: lightgrey;
+    background-color: #c9c9c9;
 }
 
 
@@ -338,6 +383,35 @@ p {
 #design_sprint p {
     color: white;
 }
+
+
+
+
+.prototype_link a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #f4b6c2;
+
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1.2rem;
+}
+
+
+.prototype_link {
+    margin-bottom: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.prototype_link:hover {
+    transform: scale(1.2);
+}
+
+
+
+
 
 @media screen and (min-width:800px) {
     #prototype .sectionwrapper_proto {
@@ -409,7 +483,7 @@ p {
 
 
 #sexsamfund {
-    background-color: lightgrey;
+    background-color: #c9c9c9;
 }
 
 
@@ -437,40 +511,45 @@ p {
     text-decoration: none;
     color: white;
 
-    background-color: dimgray;
+    background-color: #f4b6c2;
     padding: 1rem;
+    border-radius: 1.2rem;
 }
 
 
 #mitspil .spil_links {
-    margin-top: 2rem;
     text-align: center;
+    margin-top: 2rem;
     padding: 0.5rem;
 }
 
-#mitspil .spil_links a:hover {
-    background-color: dodgerblue;
+#mitspil .spil_links:hover {
+    transform: scale(1.2);
 }
+
+
 
 #sexsamfund .spil_links a {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.3rem;
     text-decoration: none;
-    color: dimgrey;
+    color: #f4b6c2;
 
     background-color: white;
     padding: 1rem;
+    border-radius: 1.2rem;
 }
+
 
 
 #sexsamfund .spil_links {
-    margin-top: 2rem;
+    margin-bottom: 3rem;
     text-align: center;
-    padding: 0.5rem;
+    margin-top: 2rem;
 }
 
-#sexsamfund .spil_links a:hover {
-    color: dodgerblue;
+#sexsamfund .spil_links:hover {
+    transform: scale(1.2);
 }
 
 
@@ -564,26 +643,31 @@ p {
     text-decoration: none;
     color: white;
 
-    background-color: dimgray;
+    background-color: #f4b6c2;
     padding: 1rem;
+    border-radius: 1.2rem;
 }
 
 
 .video_pilot {
     text-align: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem;
+    padding: 0.5rem;
 }
 
-.video_pilot a:hover {
-    background-color: dodgerblue;
+.video_pilot:hover {
+    transform: scale(1.2);
 }
+
+
+
+
 
 
 
 
 #redesign {
-    background-color: lightgrey;
+    background-color: #c9c9c9;
 }
 
 
@@ -618,23 +702,26 @@ p {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.3rem;
     text-decoration: none;
-    color: dimgrey;
+    color: #f4b6c2;
 
     background-color: white;
     padding: 1rem;
+    border-radius: 1.2rem;
 }
 
 
 .redesign_link {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 3rem;
     text-align: center;
-    padding: 0.5rem;
+
 }
 
-.redesign_link a:hover {
-    color: dodgerblue;
+.redesign_link:hover {
+    transform: scale(1.2);
 }
+
+
+
 
 
 
