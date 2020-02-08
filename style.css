@@ -8,14 +8,13 @@ header nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    background-color: white;
 }
 
 
 header nav a {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    color: dodgerblue;
+    color: #efd0d8;
     font-size: 1.5rem;
     text-decoration: none;
     padding: 0.7rem;
@@ -26,21 +25,25 @@ header nav a {
 
 header nav a:hover {
 
-    color: pink;
+    color: #f4b6c2;
+}
+
+header nav a:hover {
+    transform: scale(1.1);
 }
 
 
 #logo a {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    color: dodgerblue;
+    color: #efd0d8;
     font-size: 2.5rem;
     text-decoration: none;
     padding: 0.5rem;
 }
 
 #logo a:hover {
-    color: pink;
+    color: #f4b6c2;
 }
 
 
@@ -55,6 +58,8 @@ header nav a:hover {
     justify-content: center;
 }
 
+
+
 .web {
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -64,14 +69,22 @@ header nav a:hover {
 }
 
 .web a {
-    color: dodgerblue;
+    color: #ffffff;
     text-decoration: none;
+    background-color: #efd0d8;
+    padding: 0.5rem 1rem;
+    border-radius: 1.2rem;
 
     animation-name: color_kf;
-    animation-duration: 7s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
-    animation-delay: 1.5s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+
+}
+
+.web:hover {
+    transform: scale(1.3);
 }
 
 
@@ -86,14 +99,21 @@ header nav a:hover {
 }
 
 .ux a {
-    color: dodgerblue;
+    color: #ffffff;
     text-decoration: none;
+    background-color: #efd0d8;
+    padding: 0.5rem 1rem;
+    border-radius: 1.2rem;
 
     animation-name: color_kf;
-    animation-duration: 7s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
-    animation-delay: 1.5s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-out;
+    animation-delay: 2s;
+}
+
+.ux:hover {
+    transform: scale(1.3);
 }
 
 .animation {
@@ -106,14 +126,23 @@ header nav a:hover {
 }
 
 .animation a {
-    color: dodgerblue;
+    color: #ffffff;
     text-decoration: none;
+    background-color: #efd0d8;
+    padding: 0.5rem 1rem;
+    border-radius: 1.2rem;
 
     animation-name: color_kf;
-    animation-duration: 7s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
-    animation-delay: 1.5s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-out;
+    animation-delay: 3s;
+
+}
+
+
+.animation:hover {
+    transform: scale(1.3);
 }
 
 .content {
@@ -125,38 +154,42 @@ header nav a:hover {
 }
 
 .content a {
-    color: dodgerblue;
+    color: #ffffff;
     text-decoration: none;
+    background-color: #efd0d8;
+    padding: 0.5rem 1rem;
+    border-radius: 1.2rem;
 
     animation-name: color_kf;
-    animation-duration: 7s;
+    animation-duration: 4s;
     animation-iteration-count: infinite;
-    animation-delay: 1.5s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-out;
+}
+
+.content:hover {
+    transform: scale(1.3);
 }
 
 
+
 @keyframes color_kf {
-    10% {
-        color: skyblue;
+    0% {
+        background-color: #ead5dc;
     }
 
 
-    30% {
-        color: mediumpurple;
+    33% {
+        background-color: #f4b6c2;
     }
 
-    50% {
-        color: pink;
-    }
-
-    70% {
-        color: blueviolet;
+    66% {
+        background-color: #9ec1d8;
     }
 
     100% {
-        color: skyblue;
+        background-color: #efd0d8;
     }
+
 
 }
 
@@ -785,3 +818,8 @@ p {
 
 
 /*******************om slut********************/
+
+
+
+
+/*************forside*****************/
