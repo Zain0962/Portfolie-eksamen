@@ -1,7 +1,5 @@
 /**************MENU********************/
 
-
-
 header {
     position: fixed;
     top: 1vw;
@@ -36,9 +34,17 @@ header nav a:hover {
     transform: scale(1.1);
 }
 
+@font-face {
+    font-family: 'antonellie_calligraphy_demoRg';
+    src: url('font/antonellie_callygraphy_demo-webfont.woff2') format('woff2'),
+        url('font/antonellie_callygraphy_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 #logo a {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'antonellie_calligraphy_demoRg';
     font-weight: 700;
     color: #efd0d8;
     font-size: 2.5rem;
@@ -46,20 +52,10 @@ header nav a:hover {
     padding: 0.5rem;
 }
 
+
 #logo a:hover {
     color: #f4b6c2;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -294,7 +290,7 @@ p {
 
 .swiss_website {
     text-align: center;
-    margin-top: 2rem;
+    margin: 3rem;
 }
 
 .swiss_website:hover {
@@ -400,9 +396,8 @@ p {
 
 
 .prototype_link {
-    margin-bottom: 3rem;
     text-align: center;
-    margin-top: 2rem;
+    margin: 3rem;
 }
 
 .prototype_link:hover {
@@ -786,20 +781,25 @@ p {
     margin: 0;
 }
 
+#om .sectionwrapper_om {
+    margin: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 #om .col {
-    margin: 1rem;
-    padding: 2rem;
+    flex-grow: 1;
+    flex-basis: 400px;
+    margin: 0;
+    padding: 0;
 }
 
 #om .col img {
     width: 100%;
 }
 
-@media screen and (min-width:600px) {
-    #om .col img {
-        width: 100%;
-    }
-}
+
 
 #om .col h3 {
     text-align: center;
@@ -813,11 +813,11 @@ p {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 1.1rem;
-    line-height: 1.9rem;
+    line-height: 1.5rem;
 }
 
 
-@media screen and (min-width:600px) {
+@media screen and (min-width:700px) {
     #om .sectionwrapper_om {
         display: flex;
         flex-wrap: nowrap;
