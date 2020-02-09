@@ -885,9 +885,10 @@ p {
     background-color: #f4b6c2;
     padding: 1rem;
     border-radius: 1.2rem;
+    margin-top: 2rem;
 }
 
-.sectionwrapper_uddannelse ul {
+.sectionwrapper_uddannelse li {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 1.3rem;
@@ -915,7 +916,7 @@ p {
     border-radius: 1.2rem;
 }
 
-.sectionwrapper_arbejde ul {
+.sectionwrapper_arbejde li {
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     font-size: 1.3rem;
@@ -950,7 +951,7 @@ button:hover {
 
 @media screen and (min-width:600px) {
 
-    .sectionwrapper_uddannelse ul {
+    .sectionwrapper_uddannelse li {
         font-size: 1rem;
         margin: 1rem;
         padding: 0;
@@ -960,7 +961,7 @@ button:hover {
 
 @media screen and (min-width:600px) {
 
-    .sectionwrapper_arbejde ul {
+    .sectionwrapper_arbejde li {
         font-size: 1rem;
         margin: 1rem;
         padding: 0;
