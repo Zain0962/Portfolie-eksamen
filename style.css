@@ -1,4 +1,4 @@
-/**********MENU*************/
+/***   MENU  ***/
 
 header {
     position: fixed;
@@ -60,7 +60,21 @@ header nav a:hover {
 
 
 
-/******************PORTFOLIE********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***  PORTFOLIE   ***/
 
 
 #portfolie_links {
@@ -220,7 +234,8 @@ header nav a:hover {
 
 
 
-/*******************web*************************/
+/***     web     ***/
+
 
 #web {
     margin: 0;
@@ -274,6 +289,8 @@ p {
 
 }
 
+/*link*/
+
 .swiss_website a {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.3rem;
@@ -296,6 +313,7 @@ p {
 }
 
 
+/*media query*/
 
 
 @media screen and (min-width:800px) {
@@ -320,7 +338,6 @@ p {
 
 
 
-/*******************web slut********************/
 
 
 
@@ -335,8 +352,9 @@ p {
 
 
 
+/***    UX   ***/
 
-/*******************UX*************************/
+
 
 #ux {
     margin: 0;
@@ -379,6 +397,7 @@ p {
 }
 
 
+/*links*/
 
 
 .prototype_link a {
@@ -403,6 +422,8 @@ p {
 }
 
 
+
+/*media query*/
 
 
 
@@ -449,12 +470,18 @@ p {
 
 
 
-/*******************UX slut********************/
 
 
 
 
-/*******************Ani*************************/
+
+
+
+
+
+
+
+/***   Ani    ***/
 
 #animation {
     margin: 0;
@@ -498,9 +525,11 @@ p {
 }
 
 
+/*links*/
+
 #mitspil .spil_links a {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-decoration: none;
     color: white;
 
@@ -524,7 +553,7 @@ p {
 
 #sexsamfund .spil_links a {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-decoration: none;
     color: #f4b6c2;
 
@@ -544,6 +573,12 @@ p {
 #sexsamfund .spil_links:hover {
     transform: scale(1.2);
 }
+
+
+
+
+
+/*media query*/
 
 
 
@@ -591,7 +626,6 @@ p {
 
 
 
-/*******************Ani slut********************/
 
 
 
@@ -601,7 +635,13 @@ p {
 
 
 
-/********************Content*******************/
+
+
+
+
+
+
+/***    Content    ***/
 
 
 #content {
@@ -718,6 +758,8 @@ p {
 
 
 
+/*media query*/
+
 
 
 @media screen and (min-width:800px) {
@@ -763,7 +805,6 @@ p {
 
 
 
-/*******************content slut********************/
 
 
 
@@ -773,7 +814,13 @@ p {
 
 
 
-/*******************om*************************/
+
+
+
+
+
+/***    om   ***/
+
 
 #om {
     margin: 0;
@@ -813,6 +860,8 @@ p {
     line-height: 1.5rem;
 }
 
+
+/*media query*/
 
 @media screen and (min-width:700px) {
     #om .sectionwrapper_om {
@@ -867,6 +916,12 @@ p {
 }
 
 
+
+
+
+
+
+/*toggle knapper*/
 
 
 .sectionwrapper_uddannelse {
@@ -927,6 +982,7 @@ button:hover {
 }
 
 
+/*media query*/
 
 
 @media screen and (min-width:600px) {
@@ -974,12 +1030,17 @@ button:hover {
 
 
 
-/*******************om slut********************/
 
 
 
 
-/*************forside*****************/
+
+
+
+
+
+
+/***   forside  ***/
 
 #forside {
     margin: 0;
@@ -998,10 +1059,15 @@ button:hover {
     height: 210px;
 
     margin-top: 7rem;
+
+    animation-name: float_kf;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 #forside .forsidetxt {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
 }
 
 #forside h3 {
@@ -1011,6 +1077,10 @@ button:hover {
     color: #ffffff;
     letter-spacing: 0.17rem;
 }
+
+
+
+/*media query*/
 
 
 @media screen and (min-width:700px) {
@@ -1060,5 +1130,24 @@ button:hover {
         height: 315px;
 
         margin-top: 9rem;
+    }
+}
+
+
+
+/*animation*/
+
+
+@keyframes float_kf {
+    0% {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translateX(1.5rem);
+    }
+
+    100% {
+        transform: translateX(0)
     }
 }
