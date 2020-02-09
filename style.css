@@ -1,4 +1,4 @@
-/**************MENU********************/
+/**********MENU*************/
 
 header {
     position: fixed;
@@ -45,7 +45,6 @@ header nav a:hover {
 
 #logo a {
     font-family: 'antonellie_calligraphy_demoRg';
-    font-weight: 700;
     color: #efd0d8;
     font-size: 2.5rem;
     text-decoration: none;
@@ -909,3 +908,85 @@ p {
 
 
 /*************forside*****************/
+
+#forside {
+    margin: 0;
+}
+
+.forsidebillede {
+    display: flex;
+    justify-content: center;
+}
+
+
+.rose {
+    background-image: url(png/roseblur.png);
+    background-size: cover;
+    width: 209px;
+    height: 210px;
+
+    margin-top: 7rem;
+}
+
+#forside .forsidetxt {
+    margin-top: 2.5rem;
+}
+
+#forside h3 {
+    margin: 0;
+    font-family: 'antonellie_calligraphy_demoRg';
+    font-size: 1.5rem;
+    color: #ffffff;
+    letter-spacing: 0.17rem;
+}
+
+
+@media screen and (min-width:700px) {
+    #forside h3 {
+        margin: 0;
+        font-family: 'antonellie_calligraphy_demoRg';
+        font-size: 1.8rem;
+        color: #ffffff;
+        letter-spacing: 0.17rem;
+    }
+}
+
+
+@media screen and (min-width:1000px) {
+    #forside h3 {
+        margin: 0;
+        font-family: 'antonellie_calligraphy_demoRg';
+        font-size: 2.3rem;
+        color: #ffffff;
+        letter-spacing: 0.28rem;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    #forside .forsidetxt {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width:700px) {
+    .rose {
+        background-image: url(png/roseblur.png);
+        background-size: cover;
+        width: 261.25px;
+        height: 262.5px;
+
+        margin-top: 7rem;
+    }
+}
+
+
+@media screen and (min-width:1000px) {
+    .rose {
+        background-image: url(png/roseblur.png);
+        background-size: cover;
+        width: 313.5px;
+        height: 315px;
+
+        margin-top: 9rem;
+    }
+}
